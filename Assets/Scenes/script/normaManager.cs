@@ -15,6 +15,7 @@ public class normaManager : MonoBehaviour
     
     void Update()
     {
+
         transform.Translate(0, upSpeed * Time.deltaTime, 0);
     }
 }

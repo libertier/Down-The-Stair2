@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2131999740814386300}
   - component: {fileID: 4874114541013910868}
-  - component: {fileID: 3717381106516574500}
   - component: {fileID: 3501095495279059422}
   - component: {fileID: 8338078186770389078}
+  - component: {fileID: 6581917320403886349}
   m_Layer: 0
   m_Name: nails
   m_TagString: stair
@@ -82,19 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3717381106516574500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8303380951048171494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3751f75fd1901946b9cc0aec62acf26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upSpeed: 1
 --- !u!61 &3501095495279059422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -133,3 +120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88449c19a9f029c4797be6ab12e0e658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6581917320403886349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8303380951048171494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3751f75fd1901946b9cc0aec62acf26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upSpeed: 1
+  speed: {x: 0, y: 0.02, z: 0}

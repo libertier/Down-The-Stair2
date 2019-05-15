@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 471174934603492311}
   - component: {fileID: 2779243597147340828}
   - component: {fileID: 649448681298038712}
-  - component: {fileID: 4837770452139397476}
   - component: {fileID: 3070667391350392876}
+  - component: {fileID: 1328325563215248580}
+  - component: {fileID: 6437082223631583122}
   m_Layer: 0
   m_Name: fake
   m_TagString: Untagged
@@ -108,18 +109,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.97, y: 0.36}
   m_EdgeRadius: 0
---- !u!114 &4837770452139397476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551636595894013890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 829238f1711371344bb1c58efb9915a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3070667391350392876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,3 +122,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 1
+--- !u!95 &1328325563215248580
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551636595894013890}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0100c545d5ad5245b91f8c530edc6e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6437082223631583122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551636595894013890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70eeeb10f96fcba448bb644e2ab4ba23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fakeAni: {fileID: 1328325563215248580}

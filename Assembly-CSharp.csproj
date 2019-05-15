@@ -53,14 +53,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Scenes\script\DeadZone.cs" />
+     <Compile Include="Assets\Scenes\script\fakestair.cs" />
      <Compile Include="Assets\Scenes\script\fall.cs" />
+     <Compile Include="Assets\Scenes\script\GameManager.cs" />
      <Compile Include="Assets\Scenes\script\Groundmanager.cs" />
      <Compile Include="Assets\Scenes\script\normaManager.cs" />
      <Compile Include="Assets\Scenes\script\Player.cs" />
      <Compile Include="Assets\Scenes\script\Stair.cs" />
-     <Compile Include="Assets\trampoline.cs" />
+     <Compile Include="Assets\Scenes\script\trampoline.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Free/Documents/Down The Stair2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
