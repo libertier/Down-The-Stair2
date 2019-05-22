@@ -526,7 +526,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 0
-  speed: {x: 0, y: 0.05, z: 0}
 --- !u!4 &187937391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131999740814386300, guid: 00710cb0250def34ab3a96bb0d25510e,
@@ -564,7 +563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 0
-  speed: {x: 0, y: 0.05, z: 0}
 --- !u!4 &479896443 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131999740814386300, guid: 00710cb0250def34ab3a96bb0d25510e,
@@ -614,7 +612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spacingY: 1
-  singleFloorHeight: 1
+  singleFloorHeight: 0.2
   grounds: []
   player: {fileID: 1953523193}
   a: 0
@@ -833,7 +831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 0
-  speed: {x: 0, y: 0.05, z: 0}
 --- !u!4 &1323419783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131999740814386300, guid: 00710cb0250def34ab3a96bb0d25510e,
@@ -1424,7 +1421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 0
-  speed: {x: 0, y: 0.05, z: 0}
 --- !u!4 &1785579233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131999740814386300, guid: 00710cb0250def34ab3a96bb0d25510e,
@@ -2084,15 +2080,15 @@ Canvas:
   m_GameObject: {fileID: 2131065022}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 2
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2104,8 +2100,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131065022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.01165278, y: 0.01165278, z: 0.01165278}
   m_Children:
   - {fileID: 1414628015}
   - {fileID: 1935842806}
@@ -2116,5 +2112,5 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 512.00006, y: 910}
+  m_Pivot: {x: 0.5, y: 0.5}

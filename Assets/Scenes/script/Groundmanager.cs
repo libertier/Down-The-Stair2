@@ -13,7 +13,7 @@ public class Groundmanager : MonoBehaviour
     readonly float leftBorder = -3;//左邊界
     readonly float rightBorder = 3;//右邊界
     [Range(1, 6)] public float spacingY;
-    [Range(1, 20)] public float singleFloorHeight;
+    [Range(0, 5)] public float singleFloorHeight;
     public List<Transform> grounds;
     public Transform player;
     public int a=0;
@@ -92,7 +92,7 @@ public class Groundmanager : MonoBehaviour
                     SpawnGround2();
                     break;
             }
-            b = b + 0.2;
+            b = b + singleFloorHeight;
             ControlGroundsCount();
         }
 
@@ -171,7 +171,7 @@ public class Groundmanager : MonoBehaviour
             grounds.RemoveAt(0);
         }
     }
-
+ 
     void DisplayCountFloor()
     {
         
@@ -185,8 +185,12 @@ public class Groundmanager : MonoBehaviour
     void Update()
         {
         ControlSpawnGround();
-        DisplayCountFloor();
         DisplayCounthp();
+        if (Player.isDead == false)
+        {
+            DisplayCountFloor();
+           
+        }
     }
     }
 
